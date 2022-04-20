@@ -135,7 +135,7 @@ public class TitleScene extends PixelScene {
 		add(btnPlay);
 
 		StyledButton btnSupport = new SupportButton(GREY_TR, Messages.get(this, "support"));
-		add(btnSupport);
+		// add(btnSupport);
 
 		StyledButton btnRankings = new StyledButton(GREY_TR,Messages.get(this, "rankings")){
 			@Override
@@ -157,7 +157,7 @@ public class TitleScene extends PixelScene {
 
 		StyledButton btnNews = new NewsButton(GREY_TR, Messages.get(this, "news"));
 		btnNews.icon(Icons.get(Icons.NEWS));
-		add(btnNews);
+		//add(btnNews);
 
 		StyledButton btnChanges = new ChangesButton(GREY_TR, Messages.get(this, "changes"));
 		btnChanges.icon(Icons.get(Icons.CHANGES));
